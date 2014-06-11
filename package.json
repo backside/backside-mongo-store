@@ -1,0 +1,30 @@
+{
+  "name": "backside-mongo-store",
+  "version": "0.0.0",
+  "description": "A mongo backed store for backside",
+  "main": "index.js",
+  "scripts": {
+    "test": "PERSISTOR=backside-mongo-store mocha node_modules/backside-api/test/lib/BacksidePersistence"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backside/backside-mongo-store.git"
+  },
+  "keywords": [
+    "backside",
+    "backside-store"
+  ],
+  "author": "addisonj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backside/backside-mongo-store/issues"
+  },
+  "dependencies": {
+    "backside-utils": "0.0.0",
+    "async": "~0.9.0",
+    "mongoose": "~3.8.12"
+  },
+  "devDependencies": {
+    "backside-api": "*"
+  }
+}
