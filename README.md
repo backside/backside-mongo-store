@@ -17,3 +17,10 @@ Where opts is:
 // this same opts array is also passed to the mongo driver, so all those are available as well
 ```
 
+# Configuration via environment variables
+This can also be configured via environemt variables
+```
+MONGODB_URL=mongodb://myhost/db
+MONGODB_COLLECTION=collectionName
+MONGODB_PRIV_COLLECTION=collectionNameForPrivateData
+```
