@@ -1,6 +1,6 @@
 {
   "name": "backside-mongo-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mongo backed store for backside",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/backside/backside-mongo-store/issues"
   },
   "dependencies": {
-    "backside-utils": "0.0.0",
+    "backside-utils": "0.0.*",
     "async": "~0.9.0",
     "mongoose": "~3.8.12"
   },
