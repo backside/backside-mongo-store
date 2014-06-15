@@ -15,6 +15,9 @@
     "backside-store"
   ],
   "author": "addisonj",
+  "contributors": [
+    "Trevor Dixon"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/backside/backside-mongo-store/issues"
