@@ -1,6 +1,6 @@
 {
   "name": "backside-mongo-store",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A mongo backed store for backside",
   "main": "index.js",
   "scripts": {
